@@ -169,7 +169,7 @@
 							"tests[\"Status code is 200\"] = responseCode.code === 200;",
 							"",
 							"var jsonData = JSON.parse(responseBody);",
-							"tests[\"List should be name TODO000\"] = jsonData.name === 'DONE000';",
+							"tests[\"List should be name TODO\"] = jsonData.name === 'DONE';",
 							"tests[\"List should not be closed\"] = jsonData.closed === false;",
 							"tests[\"Board id should match given idBoard\"] = jsonData.idBoard === postman.getEnvironmentVariable(\"boardId\");",
 							"",
