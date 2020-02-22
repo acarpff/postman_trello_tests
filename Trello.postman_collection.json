@@ -105,7 +105,7 @@
 					"script": {
 						"id": "9e200af8-9142-4b8a-94eb-643f2f4d347a",
 						"exec": [
-							"tests[\"Status code is 200111\"] = responseCode.code === 200111;",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
 							"",
 							"var jsonData = JSON.parse(responseBody);",
 							"tests[\"List should be name TODO\"] = jsonData.name === 'TODO';",
